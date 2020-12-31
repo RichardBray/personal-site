@@ -1,5 +1,5 @@
 //custom js goes here
-	    $.getJSON("http://richbray.me/clever/search.json", function(data) {
+	    $.getJSON("/clever/search.json", function(data) {
 	        console.log("[search.json loaded for random posts]");
 
 	        var postsCount = data.length;

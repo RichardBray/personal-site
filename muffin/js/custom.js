@@ -247,6 +247,6 @@
 
 
 
-$(".hero").backstretch("http://richbray.me/muffin/img/muffin_bg.jpg");
+$(".hero").backstretch("/muffin/img/muffin_bg.jpg");
 
 $('#myModal').modal('hide');

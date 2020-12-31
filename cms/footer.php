@@ -31,8 +31,8 @@
  javascripts
     ================================================= -->
 	<script src="http://code.jquery.com/jquery.min.js"></script>
-	<script src="http://richbray.me/cms/js/custom.js"></script>
-	<script src="http://richbray.me/cms/js/prism.js"></script>
+	<script src="/cms/js/custom.js"></script>
+	<script src="/cms/js/prism.js"></script>
 <!-- analytics
     ================================================= -->
 	<script type="text/javascript">

@@ -1,7 +1,7 @@
 /* TEAM */
                             
 Your title: Richard Bray                    
-Site: http://richbray.me/                        
+Site: /                        
 Twitter: @Ceiga                     
 Location: London, UK
 
@@ -9,7 +9,7 @@ Location: London, UK
 /* THANKS */
 
 HTML5 Muffin
-Name: http://richbray.me/muffin/
+Name: /muffin/
 
                             
 /* SITE */

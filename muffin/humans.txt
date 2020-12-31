@@ -1,7 +1,7 @@
 /* TEAM */
                             
 Designer & Developer: Richard Bray                          
-Site: http://richbray.me/                          
+Site: /                          
 Twitter: @Ceiga                        
 Location: London, UK
 

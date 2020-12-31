@@ -3,16 +3,16 @@
 	<channel>
 		<title>Shipped</title>
 		<description>A showcase of projects from around the web</description>
-		<link>http://richbray.me/shipped</link>
-		<atom:link href="http://richbray.me/shipped/feed.xml" rel="self" type="application/rss+xml" />
+		<link>/shipped</link>
+		<atom:link href="/shipped/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Wysihtml editor</title>
 				<description>
 </description>
 				<pubDate>Fri, 01 May 2015 00:00:00 +0100</pubDate>
-				<link>http://richbray.me/shipped/2015/05/01/wysi.html</link>
-				<guid isPermaLink="true">http://richbray.me/shipped/2015/05/01/wysi.html</guid>
+				<link>/shipped/2015/05/01/wysi.html</link>
+				<guid isPermaLink="true">/shipped/2015/05/01/wysi.html</guid>
 			</item>
 		
 			<item>
@@ -20,8 +20,8 @@
 				<description>
 </description>
 				<pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
-				<link>http://richbray.me/shipped/2015/01/05/vivus.html</link>
-				<guid isPermaLink="true">http://richbray.me/shipped/2015/01/05/vivus.html</guid>
+				<link>/shipped/2015/01/05/vivus.html</link>
+				<guid isPermaLink="true">/shipped/2015/01/05/vivus.html</guid>
 			</item>
 		
 			<item>
@@ -29,8 +29,8 @@
 				<description>
 </description>
 				<pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
-				<link>http://richbray.me/shipped/2015/01/05/svgmorph.html</link>
-				<guid isPermaLink="true">http://richbray.me/shipped/2015/01/05/svgmorph.html</guid>
+				<link>/shipped/2015/01/05/svgmorph.html</link>
+				<guid isPermaLink="true">/shipped/2015/01/05/svgmorph.html</guid>
 			</item>
 		
 			<item>
@@ -38,8 +38,8 @@
 				<description>
 </description>
 				<pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
-				<link>http://richbray.me/shipped/2015/01/05/rippler.html</link>
-				<guid isPermaLink="true">http://richbray.me/shipped/2015/01/05/rippler.html</guid>
+				<link>/shipped/2015/01/05/rippler.html</link>
+				<guid isPermaLink="true">/shipped/2015/01/05/rippler.html</guid>
 			</item>
 		
 			<item>
@@ -47,8 +47,8 @@
 				<description>
 </description>
 				<pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
-				<link>http://richbray.me/shipped/2015/01/05/remodal.html</link>
-				<guid isPermaLink="true">http://richbray.me/shipped/2015/01/05/remodal.html</guid>
+				<link>/shipped/2015/01/05/remodal.html</link>
+				<guid isPermaLink="true">/shipped/2015/01/05/remodal.html</guid>
 			</item>
 		
 			<item>
@@ -56,8 +56,8 @@
 				<description>
 </description>
 				<pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
-				<link>http://richbray.me/shipped/2015/01/05/pexels.html</link>
-				<guid isPermaLink="true">http://richbray.me/shipped/2015/01/05/pexels.html</guid>
+				<link>/shipped/2015/01/05/pexels.html</link>
+				<guid isPermaLink="true">/shipped/2015/01/05/pexels.html</guid>
 			</item>
 		
 			<item>
@@ -65,8 +65,8 @@
 				<description>
 </description>
 				<pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
-				<link>http://richbray.me/shipped/2015/01/05/owl.html</link>
-				<guid isPermaLink="true">http://richbray.me/shipped/2015/01/05/owl.html</guid>
+				<link>/shipped/2015/01/05/owl.html</link>
+				<guid isPermaLink="true">/shipped/2015/01/05/owl.html</guid>
 			</item>
 		
 			<item>
@@ -74,8 +74,8 @@
 				<description>
 </description>
 				<pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
-				<link>http://richbray.me/shipped/2015/01/05/matui.html</link>
-				<guid isPermaLink="true">http://richbray.me/shipped/2015/01/05/matui.html</guid>
+				<link>/shipped/2015/01/05/matui.html</link>
+				<guid isPermaLink="true">/shipped/2015/01/05/matui.html</guid>
 			</item>
 		
 			<item>
@@ -83,8 +83,8 @@
 				<description>
 </description>
 				<pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
-				<link>http://richbray.me/shipped/2015/01/05/linings.html</link>
-				<guid isPermaLink="true">http://richbray.me/shipped/2015/01/05/linings.html</guid>
+				<link>/shipped/2015/01/05/linings.html</link>
+				<guid isPermaLink="true">/shipped/2015/01/05/linings.html</guid>
 			</item>
 		
 			<item>
@@ -92,8 +92,8 @@
 				<description>
 </description>
 				<pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
-				<link>http://richbray.me/shipped/2015/01/05/elasticsvg.html</link>
-				<guid isPermaLink="true">http://richbray.me/shipped/2015/01/05/elasticsvg.html</guid>
+				<link>/shipped/2015/01/05/elasticsvg.html</link>
+				<guid isPermaLink="true">/shipped/2015/01/05/elasticsvg.html</guid>
 			</item>
 		
 	</channel>

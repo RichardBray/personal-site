@@ -7,7 +7,7 @@ Address validation plugin using geolocation from the Goggle Maps API (Original c
 Demo
 ===========
 
-Click [here](http://richbray.me/pinpoint) to see the plugin in action.
+Click [here](/pinpoint) to see the plugin in action.
 
 
 Install (in 3 easy steps)

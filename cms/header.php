@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8"/>
-	<link rel="author" href="http://richbray.me/humans.txt">
+	<link rel="author" href="/humans.txt">
 	<title>Color Me Sass - Colour library for the css preprocessor Sass</title>
 	<meta name="description" content="Colour library for Sass">
-	<link rel="stylesheet" href="http://richbray.me/cms/style.css">
+	<link rel="stylesheet" href="/cms/style.css">
 
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -71,7 +71,7 @@
 					<p>Colour library for Sass</p>
 			</div>
 			<div class="row dl-links">
-				<a href="http://richbray.me/cms/color-me-sass.zip" class="btn btn-large btn-pink"><i class="icon-download icon-white"></i> Download</a> 
+				<a href="/cms/color-me-sass.zip" class="btn btn-large btn-pink"><i class="icon-download icon-white"></i> Download</a> 
 				<a href="https://github.com/RichardBray/color-me-sass" target="_blank" class="btn btn-large">Fork on Github</a>
 			</div>
 			<div class="new-ones">
