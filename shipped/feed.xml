@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Shipped</title>
+		<description>A showcase of projects from around the web</description>
+		<link>http://richbray.me/shipped</link>
+		<atom:link href="http://richbray.me/shipped/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Wysihtml editor</title>
+				<description>
+</description>
+				<pubDate>Fri, 01 May 2015 00:00:00 +0100</pubDate>
+				<link>http://richbray.me/shipped/2015/05/01/wysi.html</link>
+				<guid isPermaLink="true">http://richbray.me/shipped/2015/05/01/wysi.html</guid>
+			</item>
+		
+			<item>
+				<title>SVG Vivus</title>
+				<description>
+</description>
+				<pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
+				<link>http://richbray.me/shipped/2015/01/05/vivus.html</link>
+				<guid isPermaLink="true">http://richbray.me/shipped/2015/01/05/vivus.html</guid>
+			</item>
+		
+			<item>
+				<title>SVG Morpheus</title>
+				<description>
+</description>
+				<pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
+				<link>http://richbray.me/shipped/2015/01/05/svgmorph.html</link>
+				<guid isPermaLink="true">http://richbray.me/shipped/2015/01/05/svgmorph.html</guid>
+			</item>
+		
+			<item>
+				<title>Rippler</title>
+				<description>
+</description>
+				<pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
+				<link>http://richbray.me/shipped/2015/01/05/rippler.html</link>
+				<guid isPermaLink="true">http://richbray.me/shipped/2015/01/05/rippler.html</guid>
+			</item>
+		
+			<item>
+				<title>Remodal</title>
+				<description>
+</description>
+				<pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
+				<link>http://richbray.me/shipped/2015/01/05/remodal.html</link>
+				<guid isPermaLink="true">http://richbray.me/shipped/2015/01/05/remodal.html</guid>
+			</item>
+		
+			<item>
+				<title>Pexels</title>
+				<description>
+</description>
+				<pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
+				<link>http://richbray.me/shipped/2015/01/05/pexels.html</link>
+				<guid isPermaLink="true">http://richbray.me/shipped/2015/01/05/pexels.html</guid>
+			</item>
+		
+			<item>
+				<title>Owl Carousel</title>
+				<description>
+</description>
+				<pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
+				<link>http://richbray.me/shipped/2015/01/05/owl.html</link>
+				<guid isPermaLink="true">http://richbray.me/shipped/2015/01/05/owl.html</guid>
+			</item>
+		
+			<item>
+				<title>Material UI</title>
+				<description>
+</description>
+				<pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
+				<link>http://richbray.me/shipped/2015/01/05/matui.html</link>
+				<guid isPermaLink="true">http://richbray.me/shipped/2015/01/05/matui.html</guid>
+			</item>
+		
+			<item>
+				<title>Linings</title>
+				<description>
+</description>
+				<pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
+				<link>http://richbray.me/shipped/2015/01/05/linings.html</link>
+				<guid isPermaLink="true">http://richbray.me/shipped/2015/01/05/linings.html</guid>
+			</item>
+		
+			<item>
+				<title>Elastic SVG</title>
+				<description>
+</description>
+				<pubDate>Mon, 05 Jan 2015 00:00:00 +0000</pubDate>
+				<link>http://richbray.me/shipped/2015/01/05/elasticsvg.html</link>
+				<guid isPermaLink="true">http://richbray.me/shipped/2015/01/05/elasticsvg.html</guid>
+			</item>
+		
+	</channel>
+</rss>

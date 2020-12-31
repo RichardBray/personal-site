@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Glint - The lightweight news reader powered by RSS feeds</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<meta name="description" CONTENT="Lightweight – RSS powered information retriever." />
+		<meta name="keywords" content="rss, news, games, tech, men, feed, simple, flat, responsive, lightweight, new, innovative"  />
+		<link rel="stylesheet" href="css/style.css">
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+		<link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+		<link rel="shortcut icon" href="ico/favicon.png">  	
+	</head>
+
+	<body>
+		<nav class="topBar" role="navigation">
+			<section class="container">
+				<div>
+					<img class="logo" src="img/logo.jpg" alt="glint logo" style="cursor: pointer; float:left;">
+					<div style="text-align:right; cursor:pointer;" onclick="location.reload()">
+						<img src="img/refresh.svg" alt="refresh icon" style="width:2em; margin-top: .5em;">
+					</div>					
+				</div>
+			</section>
+		</nav>
+
+		<main role="main">
+		<div style="text-align: right; margin-top:1em; color: #db6335; max-width: 705px; margin: 1.2em auto 0;">
+			<span data-toggle="modal" data-target="#gamesModal" style="cursor: pointer;">What do the colours mean?</span>
+		</div>
+			<div class="loader two" style="display:none;">
+				<img src="img/loader.png" alt="loading image">
+			</div>	
+			<section class="container" id="feed">
+				<div class="loader">
+					<img src="img/loader.png" alt="loading image">
+				</div>
+			</section>
+			<footer role="contentinfo" class="container">
+				<div class="pull-left" style="font-weight: 500;">
+					&copy; Glint <span class="the-year"></span>
+				</div>
+				<div class="pull-right">
+					<a data-toggle="modal" data-target="#myModal" style="cursor:pointer;">About</a>
+				</div>				
+			</footer>
+		</main>	
+
+
+		<!-- MODALS
+		======================================================================================== -->
+
+		<div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <span class="pull-right" data-dismiss="modal" aria-hidden="true" style="cursor:pointer;"><i class="fa fa-times"></i></span>
+		        <h4 class="modal-title" id="myModalLabel">About</h4>
+		      </div>
+		      <div class="modal-body">
+					Glint is a simple rss reader inspired by the design of Layer Vault's <a href="https://news.layervault.com/stories">Designer News</a> and the chrome app <a href="http://usepanda.com/">Panda</a>. It started off as a way to keep up with news emerging from the gaming industry.
+				<p>
+					Why the name 'Glint'? No reason really. I was inspired by the <a href="http://instagram.com/p/X2ZIcEnLBy/">light that reflected off my glass of orange juice</a> whilst at work and I thought glint would be a cool name for a project.
+				</p>
+				<p>
+					I'm not sure what the future of this side project will look like but I hope you have as much fun using it as I did making it. Hit me up on <a href="https://twitter.com/Ceiga">twitter</a> or send me an <a href="mailto:richardbray89@gmail.com?Subject=Glint Feedback">email</a> if you have any feature suggestions.
+				</p>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+
+
+		<div class="modal" id="gamesModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<span class="pull-right" data-dismiss="modal" aria-hidden="true" style="cursor:pointer;"><i class="fa fa-times"></i></span>
+						<h4 class="modal-title" id="myModalLabel">Games Sites (6)</h4>
+					</div>
+					<div class="modal-body">
+
+						<section class="row feed-row">
+							<div class="feed-box c-gamespot"></div>
+							<div class="feed-site">Gamespot <em><a href="http://www.gamespot.com/">(gamespot.com)</a></em></div>
+						</section>
+
+						<section class="row feed-row">
+							<div class="feed-box c-gamesindustry"></div>
+							<div class="feed-site">Gamesindustry <em><a href="http://www.gamesindustry.biz/">(gamesindustry.biz)</a></em></div>
+						</section>						
+
+						<section class="row feed-row">
+							<div class="feed-box c-gametrailers"></div>
+							<div class="feed-site">Gametrailers <a href="http://www.gametrailers.com/"><em>(gametrailers.com)</em></a></div>
+						</section>
+
+						<section class="row feed-row">
+							<div class="feed-box c-giantbomb"></div>
+							<div class="feed-site">Giantbomb <a href="http://www.giantbomb.com/"><em>(giantbomb.com)</em></a></div>
+						</section>								
+
+						<section class="row feed-row">
+							<div class="feed-box c-ign"></div>
+							<div class="feed-site">IGN <a href="http://uk.ign.com/"><em>(ign.com)</em></a></div>
+						</section>	
+
+						<section class="row">
+							<div class="feed-box c-polygon"></div>
+							<div class="feed-site">Polygon <a href="http://www.polygon.com/"><em>(polygon.com)</em></a></div>
+						</section>		
+										
+					</div>
+
+				</div>
+			</div>
+		</div>		
+
+			
+
+
+		<!-- MODALS (END)
+		======================================================================================== -->
+
+
+
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> 
+		<script src="js/scripts.min.js"></script>
+		<script class="feeds"></script>
+		<script type="text/javascript">
+
+			function onDeviceReady() {
+			    setTimeout(function() {
+			        navigator.splashscreen.hide();
+			    }, 2000);
+			}		
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-35925166-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+
+		</script>
+			
+	</body>
+</html>

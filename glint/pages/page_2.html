@@ -1,0 +1,12 @@
+<script>
+	$('#feed').rssfeed('http://www.rssmix.com/u/3948647/rss.xml', {limit: 50});	
+	setInterval(function(){
+		linkColors('verge','c-verge');
+		linkColors('wired','c-wired');
+		linkColors('feeds.gawker','c-lifehacker');
+		linkColors('techmeme','c-techmeme');
+	},1);
+	toggleNav();
+	hideNav();
+	closeThings();
+</script>

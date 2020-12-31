@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title>CSS Bricks | Documentation</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<link rel="author" href="humans.txt">
+		<meta name="description" content="Description Goes Here" />
+		<link rel="stylesheet" href="css/style.css">
+		<!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+		<link rel="shortcut icon" href="ico/favicon.png">
+
+	</head>
+
+	<body>
+	    <nav class="container ta-c mt-1" role="navigation">
+	    	<ul class="p-0">
+	    		<li style="padding-left: 0;">
+	    			<a class="td-n" href="#colours">1.Colours</a>
+	    		</li>
+	    		<li>
+	    			<a class="td-n" href="#layout">2.Layout</a>
+	    		</li>
+	    		<li>
+	    			<a class="td-n" href="#font">3.Font/Text</a>
+	    		</li>
+	    		<li>
+	    			<a class="td-n" href="#rest">4.The Rest</a>
+	    		</li>
+	    	</ul>
+	    </nav>
+
+		<main class="container ta-c" role="main">
+			<h1 class="mb-1"><a href="index.html">CSS Bricks</a></h1>
+
+			<table id="colours" class="table table-bordered table-striped">
+				<tr>
+					<th colspan="2" class="ta-c tt-u c-red">1. Colours</th>
+				</tr>
+				<tr>
+					<th class="ta-c tt-u c-red">Class</th>
+					<th class="ta-c tt-u c-red">CSS</th>
+				</tr>
+				<tr>
+					<td class="fw-b">c-white</td>
+					<td>color: #fff</td>
+				</tr>
+				<tr>
+					<td class="fw-b">c-grey</td>
+					<td>
+						color: #838383
+						<span style="color: #838383; font-size:1em;">&#167;</span>
+					</td>
+				</tr>
+				<tr>
+					<td class="fw-b">c-black</td>
+					<td>
+						color: #000
+						<span style="color: #000; font-size:1em;">&#167;</span>
+					</td>
+				</tr>
+				<tr>
+					<td class="fw-b">c-red</td>
+					<td>
+						color: #D42C2C
+						<span style="color: #D42C2C; font-size:1em;">&#167;</span>
+					</td>
+				</tr>
+				<tr>
+					<td class="fw-b">c-orange</td>
+					<td>
+						color: #FF6600
+						<span style="color: #FF6600; font-size:1em;">&#167;</span>
+					</td>
+				</tr>
+				<tr>
+					<td class="fw-b">c-yellow</td>
+					<td>
+						color: #FFCC00
+						<span style="color: #FFCC00; font-size:1em;">&#167;</span>
+					</td>
+				</tr>
+				<tr>
+					<td class="fw-b">c-green</td>
+					<td>
+						color: #33CC33
+						<span style="color: #33CC33; font-size:1em;">&#167;</span>
+					</td>
+				</tr>
+				<tr>
+					<td class="fw-b">c-blue</td>
+					<td>
+						color: #0066FF
+						<span style="color: #0066FF; font-size:1em;">&#167;</span>
+					</td>
+				</tr>
+				<tr>
+					<td class="fw-b">c-purple</td>
+					<td>
+						color: #9966FF
+						<span style="color: #9966FF; font-size:1em;">&#167;</span>
+					</td>
+				</tr>
+				<tr>
+					<td class="fw-b">c-pink</td>
+					<td>
+						color: #FF33CC
+						<span style="color: #FF33CC; font-size:1em;">&#167;</span>
+					</td>
+				</tr>
+				<tr>
+					<td class="fw-b">c-brown</td>
+					<td>
+						color: #663300
+						<span style="color: #663300; font-size:1em;">&#167;</span>
+					</td>
+				</tr>
+			</table>
+
+			<table id="layout" class="table table-bordered table-striped">
+				<tr>
+					<th colspan="2" class="ta-c tt-u c-red">2. Layout</th>
+				</tr>
+				<tr>
+					<th class="ta-c tt-u c-red">Class</th>
+					<th class="ta-c tt-u c-red">CSS</th>
+				</tr>
+				<tr>
+					<td class="fw-b">dis-b</td>
+					<td>display:block</td>
+				</tr>				
+				<tr>
+					<td class="fw-b">dis-f</td>
+					<td>display:flex</td>
+				</tr>				
+				<tr>
+					<td class="fw-b">dis-n</td>
+					<td>display:none</td>
+				</tr>
+				<tr>
+					<td class="fw-b">jc-sb</td>
+					<td>justify-content:space-between</td>
+				</tr>	
+				<tr>
+					<td class="fw-b">jc-sa</td>
+					<td>justify-content:space-around</td>
+				</tr>	
+				<tr>
+					<td class="fw-b">jc-fe</td>
+					<td>justify-content:flex-end</td>
+				</tr>
+				<tr>
+					<td class="fw-b">jc-fs</td>
+					<td>justify-content:flex-start</td>
+				</tr>	
+				<tr>
+					<td class="fw-b">fl-w</td>
+					<td>flex-wrap: wrap</td>
+				</tr>	
+				<tr>
+					<td class="fw-b">fl-nw</td>
+					<td>flex-wrap: nowrap</td>
+				</tr>																					
+				<tr>
+					<td class="fw-b">w-full</td>
+					<td>width: 100%</td>
+				</tr>
+				<tr>
+					<td class="fw-b">w-half</td>
+					<td>width: 50%</td>
+				</tr>
+				<tr>
+					<td class="fw-b">w-third</td>
+					<td>width: 33.333333%</td>
+				</tr>
+				<tr>
+					<td class="fw-b">w-quarter</td>
+					<td>width: 25%</td>
+				</tr>
+				<tr>
+					<td class="fw-b">h-full</td>
+					<td>height: 100%</td>
+				</tr>
+				<tr>
+					<td class="fw-b">h-half</td>
+					<td>height: 50%</td>
+				</tr>
+				<tr>
+					<td class="fw-b">h-quart</td>
+					<td>height: 25%</td>
+				</tr>
+				<tr>
+					<td class="fw-b">fl-r</td>
+					<td>float: right</td>
+				</tr>
+				<tr>
+					<td class="fw-b">fl-l</td>
+					<td>float: left</td>
+				</tr>
+				<tr>
+					<td class="fw-b">cl-r</td>
+					<td>clear: right</td>
+				</tr>
+				<tr>
+					<td class="fw-b">cl-l</td>
+					<td>clear: left</td>
+				</tr>
+				<tr>
+					<td class="fw-b">cl-b</td>
+					<td>clear: both</td>
+				</tr>
+				<tr>
+					<td class="fw-b">m-0</td>
+					<td>margin:0</td>
+				</tr>
+				<tr>
+					<td class="fw-b">mt-0_5</td>
+					<td>margin-top: 0.5em</td>
+				</tr>
+				<tr>
+					<td class="fw-b">mb-0_5</td>
+					<td>margin-bottom: 0.5em</td>
+				</tr>
+				<tr>
+					<td class="fw-b">pos-r</td>
+					<td>position: relative</td>
+				</tr>
+				<tr>
+					<td class="fw-b">pos-f</td>
+					<td>position: fixed</td>
+				</tr>
+				<tr>
+					<td class="fw-b">pos-a</td>
+					<td>position: absolute</td>
+				</tr>
+				<tr>
+					<td class="fw-b">mb-[0-10]</td>
+					<td>margin-bottom: [0-10]em</td>
+				</tr>
+				<tr>
+					<td class="fw-b">mt-[0-10]</td>
+					<td>margin-top: [0-10]em</td>
+				</tr>
+				<tr>
+					<td class="fw-b">op-[0-10]</td>
+					<td>opacity: [0.1 - 1.0]</td>
+				</tr>
+			</table>
+
+			<table id="font" class="table table-bordered table-striped">
+				<tr>
+					<th colspan="2" class="ta-c tt-u c-red">3. Font/Text</th>
+				</tr>
+				<tr>
+					<th class="ta-c tt-u c-red">Class</th>
+					<th class="ta-c tt-u c-red">CSS</th>
+				</tr>
+				<tr>
+					<td class="fw-b">fw-b</td>
+					<td>font-weight: bold</td>
+				</tr>
+				<tr>
+					<td class="fw-b">fw-n</td>
+					<td>font-weight: normal</td>
+				</tr>
+				<tr>
+					<td class="fw-b">fz-0_5</td>
+					<td>font-size: 0.5em</td>
+				</tr>
+				<tr>
+					<td class="fw-b">fz-1_5</td>
+					<td>font-size: 1.5em</td>
+				</tr>
+				<tr>
+					<td class="fw-b">ta-r</td>
+					<td>text-align: right</td>
+				</tr>
+				<tr>
+					<td class="fw-b">ta-l</td>
+					<td>text-align: left</td>
+				</tr>
+				<tr>
+					<td class="fw-b">ta-c</td>
+					<td>text-align: center</td>
+				</tr>
+				<tr>
+					<td class="fw-b">tt-u</td>
+					<td>text-transform: uppercase</td>
+				</tr>
+				<tr>
+					<td class="fw-b">td-n</td>
+					<td>text-decoration:none</td>
+				</tr>
+				<tr>
+					<td class="fw-b">td-u</td>
+					<td>text-decoration:underline</td>
+				</tr>
+				<tr>
+					<td class="fw-b">fz-[0-5]</td>
+					<td>font-size: [0-5]em</td>
+				</tr>
+				<tr>
+					<td class="fw-b">p-[0-5]</td>
+					<td>padding: [0-5]em</td>
+				</tr>
+			</table>
+
+			<table id="rest" class="table table-bordered table-striped">
+				<tr>
+					<th colspan="2" class="ta-c tt-u c-red">4. The Rest</th>
+				</tr>
+				<tr>
+					<th class="ta-c tt-u c-red">Class</th>
+					<th class="ta-c tt-u c-red">CSS</th>
+				</tr>
+				<tr>
+					<td class="fw-b">trans-2</td>
+					<td>transition: 0.2s</td>
+				</tr>
+				<tr>
+					<td class="fw-b">trans-3</td>
+					<td>transition: 0.3s</td>
+				</tr>
+				<tr>
+					<td class="fw-b">cur-p</td>
+					<td>cursor: pointer</td>
+				</tr>
+				<tr>
+					<td class="fw-b">rounded</td>
+					<td>border-radius: 20em</td>
+				</tr>
+			</table>
+		</main>
+
+	</body>
+</html>

@@ -1,0 +1,20 @@
+/* TEAM */
+                            
+Your title: Richard Bray                    
+Site: http://richbray.me/                        
+Twitter: @Ceiga                     
+Location: London, UK
+
+
+/* THANKS */
+
+HTML5 Muffin
+Name: http://richbray.me/muffin/
+
+                            
+/* SITE */
+                          
+Last update: 2013/05/06                   
+Standards: HTML5, CSS3,..                   
+Components: jQuery                           
+Software: Chrome developer tools
