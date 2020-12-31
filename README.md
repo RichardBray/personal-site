@@ -1,3 +1,3 @@
 # My personal site
 
-Not that excitring.
+Not that exciting.
