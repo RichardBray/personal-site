@@ -1,5 +1,17 @@
-@charset "UTF-8";
-/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+:root {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    color: #000;
+    --font-size: 16px;
+    --padding: 10px;
+    --border-radius: 5px;
+    --border-width: 2px;
+    --border-color: #ccc;
+    --background-color: #4b2aad;
+    --color: #fff;
+    --transition-time: 0.3s;
+    --hover-background-color: #3b2289
+}
 
 html {
     font-family: sans-serif;
@@ -94,12 +106,6 @@ section {
     line-height: 1.8em
 }
 
-:root {
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 14px;
-    color: #000
-}
-
 a {
     text-decoration: none;
     color: #000
@@ -148,3 +154,41 @@ a {
 .td\(n\)\:h:hover {
     text-decoration: none
 }
+
+.signup-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  .signup-form input[type="email"] {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    margin-right: 10px;
+    width: 70%;
+    max-width: 400px;
+  }
+
+  .signup-form input[type="submit"] {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4b2aad;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .signup-form input[type="submit"]:hover {
+    background-color: #3b2289;
+  }
+
+  @media screen and (max-width: 600px) {
+    .signup-form input[type="email"] {
+      margin-bottom: 10px;
+      width: 100%;
+    }
+  }
