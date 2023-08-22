@@ -38,6 +38,9 @@ section {
     justify-content: flex-end
 }
 
+.jc-sb {
+    justify-content: space-between
+}
 .m-0 {
     margin: 0
 }
@@ -128,7 +131,7 @@ a {
 }
 
 .container {
-  max-width: 1200px;
+max-width: 1000px;
   margin: 0 auto;
 }
 
